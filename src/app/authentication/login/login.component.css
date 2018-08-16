@@ -1,0 +1,22 @@
+.container-fluid{
+    margin-top: 10px; 
+}
+
+.text-center{
+    text-align: left!important;
+    width:50%;
+}
+
+.email{
+    padding-bottom: 10px;
+}
+
+.signin{
+    width:50%;
+}
+
+.password{
+    padding: 10 10 10 10;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}

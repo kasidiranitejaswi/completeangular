@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import {Routes, RouterModule} from '@angular/router';
 import { AuthenticationModule } from './authentication/authentication.module';
+import { HomeComponent } from './home/home.component';
 //import { AuthenticationComponent } from './authentication/authentication.component';
 const routes:Routes=[
   {
@@ -17,6 +18,7 @@ const routes:Routes=[
 @NgModule({
   declarations: [
     AppComponent,
+    HomeComponent,
 
    // AuthenticationComponent
   ],
